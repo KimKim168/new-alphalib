@@ -6,7 +6,7 @@ import { router } from '@inertiajs/react';
 export function LanguageSwitcher() {
     const { locale } = usePage().props as { locale?: string };
 
-    const defaultLocale = locale ?? 'kh'; // Khmer default
+    const defaultLocale = locale ?? 'en'; // Khmer default
 
     return (
         <Select
